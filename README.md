@@ -14,7 +14,9 @@ A comprehensive **Point of Sale (POS) management system** with advanced features
 
 ## 📸 Screenshots
 
-![Dashboard](https://user-images.githubusercontent.com/71541409/234483153-38816efd-c261-4585-bb93-28639508f5e3.jpg)
+![App Screenshot](screenshot/pos.png)
+![App Screenshot](screenshot/pos3.png)
+![App Screenshot](screenshot/pos4.png)
 
 _More screenshots coming soon..._
 

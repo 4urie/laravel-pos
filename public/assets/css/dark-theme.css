@@ -1,0 +1,161 @@
+/* Dark Theme Colors for POS System */
+
+:root {
+    /* Main theme colors - Dark theme */
+    --primary-color: #6366f1;        /* Indigo - For primary actions, buttons */
+    --secondary-color: #475569;      /* Slate - For secondary elements */
+    --success-color: #22c55e;        /* Green - For success messages, positive actions */
+    --danger-color: #ef4444;         /* Red - For error messages, destructive actions */
+    --warning-color: #f59e0b;        /* Amber - For warnings, caution actions */
+    --info-color: #0ea5e9;           /* Sky Blue - For informational elements */
+    --dark-color: #1e293b;           /* Slate Dark - For text, headers */
+    --light-color: #f8fafc;          /* Slate Light - For light text */
+    
+    /* Sidebar colors */
+    --sidebar-bg: #1e293b;           /* Dark sidebar background */
+    --sidebar-text: #f8fafc;         /* Light text color */
+    --sidebar-active: #6366f1;       /* Active menu item (indigo) */
+    --sidebar-hover: #c7d2fe;        /* Hover state (indigo light) */
+    
+    /* Card and container colors */
+    --card-bg: #334155;              /* Slate for card background */
+    --body-bg: #0f172a;              /* Very dark slate for body background */
+    
+    /* Text colors */
+    --text-primary: #f8fafc;         /* Primary text color (light) */
+    --text-secondary: #cbd5e1;       /* Secondary text color (light slate) */
+    --text-muted: #94a3b8;           /* Muted text color (medium slate) */
+}
+
+/* Override theme styles */
+.bg-primary, .btn-primary {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.bg-secondary, .btn-secondary {
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+}
+
+.bg-success, .btn-success, .badge-success {
+    background-color: var(--success-color) !important;
+    border-color: var(--success-color) !important;
+}
+
+.bg-danger, .btn-danger, .badge-danger {
+    background-color: var(--danger-color) !important;
+    border-color: var(--danger-color) !important;
+}
+
+.bg-warning, .btn-warning, .badge-warning {
+    background-color: var(--warning-color) !important;
+    border-color: var(--warning-color) !important;
+}
+
+.bg-info, .btn-info, .badge-info {
+    background-color: var(--info-color) !important;
+    border-color: var(--info-color) !important;
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.text-success {
+    color: var(--success-color) !important;
+}
+
+.text-danger {
+    color: var(--danger-color) !important;
+}
+
+.text-warning {
+    color: var(--warning-color) !important;
+}
+
+.text-info {
+    color: var(--info-color) !important;
+}
+
+/* Sidebar styling */
+.iq-sidebar {
+    background: var(--sidebar-bg) !important;
+}
+
+.iq-sidebar-menu .iq-menu li a {
+    color: var(--sidebar-text) !important;
+}
+
+.iq-sidebar-menu .iq-menu li.active a {
+    color: var(--sidebar-active) !important;
+    background: rgba(99, 102, 241, 0.2) !important;
+}
+
+.iq-sidebar-menu .iq-menu li a:hover {
+    color: var(--sidebar-hover) !important;
+}
+
+/* Card styling */
+.card {
+    background-color: var(--card-bg) !important;
+    border: none !important;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(0, 0, 0, 0.15) !important;
+}
+
+body {
+    background-color: var(--body-bg) !important;
+    color: var(--text-primary) !important;
+}
+
+/* Icon box styling */
+.iq-icon-box-2 {
+    background: var(--primary-color) !important;
+}
+
+.bg-info-light {
+    background: rgba(14, 165, 233, 0.2) !important; 
+}
+
+.bg-danger-light {
+    background: rgba(239, 68, 68, 0.2) !important;
+}
+
+.bg-success-light {
+    background: rgba(34, 197, 94, 0.2) !important;
+}
+
+.bg-warning-light {
+    background: rgba(245, 158, 11, 0.2) !important;
+}
+
+/* Table styling */
+.table {
+    color: var(--text-primary) !important;
+}
+
+.table thead th {
+    background-color: var(--dark-color) !important;
+    color: var(--light-color) !important;
+    border-color: #475569 !important;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Input styling */
+input, select, textarea, .form-control {
+    background-color: #475569 !important;
+    border-color: #64748b !important;
+    color: var(--text-primary) !important;
+}
+
+input::placeholder, select::placeholder, textarea::placeholder, .form-control::placeholder {
+    color: var(--text-muted) !important;
+}
+
+/* Apply a smooth transition to all elements for theme changes */
+* {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+} 

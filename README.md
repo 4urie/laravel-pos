@@ -398,3 +398,5 @@ This project is licensed under the [MIT License](LICENSE).
 Made with ❤️ by [4urie](https://github.com/4urie)
 
 **Repository**: [https://github.com/4urie/laravel-pos](https://github.com/4urie/laravel-pos)
+
+miss you
